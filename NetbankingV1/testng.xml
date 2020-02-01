@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NetbankingV1">
+<listeners>
+<listener class-name ="com.netbanking.Utilites.Reporting"/>
+
+</listeners>
+  <test  name="Test">
+    <classes>
+      <!-- <class name="com.netbanking.testcases.TC_LoginTest001"/> -->
+       <class name="com.netbanking.testcases.TC_LoginDDT_002"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
